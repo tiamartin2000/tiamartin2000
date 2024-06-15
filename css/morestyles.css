@@ -1,0 +1,77 @@
+.list {
+    font-style: italic;
+    color: black;
+    font-weight: lighter;
+}
+
+.biglist {
+    font-weight: bold;
+    color: #470A12;
+}
+
+.header {
+   
+    font-family: fantasy;
+    font-size: larger;
+    font-weight: bold;
+    color: #044B9B;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav{
+   
+    color: #044B9B;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+
+.border {
+    border: 2px solid #044B9B ;
+    padding: 10px;
+}
+
+.tableau-container {
+    width: 300px;
+    height: 200px;
+}
+
+.tableau-container iframe { 
+    width: 100%; /* Ensure iframe fills container width */
+    height: 100%; /* Ensure iframe fills container height */
+    border: none; /* Remove border */
+}
+   
+.Disneycontainer {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 10px;
+    z-index: 1000px;
+}
+
+.titlehead {
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.DisneyPassionList {
+    text-align: left;
+    border: #044B9B 2px solid;
+    position: relative;
+}
